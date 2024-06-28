@@ -21,6 +21,17 @@
   },
   "homepage": "https://github.com/LukeCarrier/dendron-to-logseq#readme",
   "packageManager": "pnpm@8.15.0+sha1.97e9ea18c26f67eaa5b0b394f1cfbcdc65b1b02d",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "glob": "^10.4.2",
+    "remark-frontmatter": "^5.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.5",
+    "yaml": "^2.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "typescript-language-server": "^4.3.3"
+  }
 }
